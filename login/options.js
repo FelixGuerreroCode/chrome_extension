@@ -1,21 +1,21 @@
 var userList =  [ 
-	{ username : "xyz1134", description : "Member: None" , application : "pweb" }, 
-	{ username : "sweet69summer", description : "Member: After tax testing" , application : "pweb" },
-	{ username : "SFDFinance", description : "Employer: CNW Manual creation for mreidy" , application : "pweb" },
-	{ username : "mreidy", description : "Employer: CNW Manual creation. Employee of SFDFinance" , application : "pweb" },
-	{ username : "prplson", description : "Employer with CNW" , application : "pweb" },
-	{ username : "cshoema1", description : "Employee with CNW" , application : "pweb" },
-	{ username : "Maricopa County", description : "Employer: Employer login" , application : "pweb" },
-	{ username : "21jULY61", description : "PDA Testing" , application : "pweb" },
-	{ username : "PdDaniels", description : "LOA Testing" , application : "pweb" },
-	{ username : "svillegas", description : "LOA Testing" , application : "pweb" },
-	{ username : "Gabby", description : "Employer Admin for Yuma Count Airport Authority" , application : "pweb" },
-	{ username : "19077GBoyce", description : "Mil Call Up User 1" , application : "pweb" },
-	{ username : "18914KCall", description : "Mil Call Up User 2" , application : "pweb" },
-	{ username : "coyote1", description : "POL Testing" , application : "pol" },
-	{ username : "coyote4", description : "POL Testing" , application : "pol" },
-	{ username : "coyote5", description : "POL Testing" , application : "pol" },
-	{ username : "coyote6", description : "POL Testing" , application : "pol" }
+	{ username : "", description : "Member: None" , application : "pweb" }, 
+	{ username : "", description : "Member: After tax testing" , application : "pweb" },
+	{ username : "", description : "Employer: CNW Manual creation for mreidy" , application : "pweb" },
+	{ username : "", description : "Employer: CNW Manual creation. Employee of SFDFinance" , application : "pweb" },
+	{ username : "", description : "Employer with CNW" , application : "pweb" },
+	{ username : "", description : "Employee with CNW" , application : "pweb" },
+	{ username : "", description : "Employer: Employer login" , application : "pweb" },
+	{ username : "", description : "PDA Testing" , application : "pweb" },
+	{ username : "", description : "LOA Testing" , application : "pweb" },
+	{ username : "", description : "LOA Testing" , application : "pweb" },
+	{ username : "", description : "Employer Admin for Yuma Count Airport Authority" , application : "pweb" },
+	{ username : "", description : "Mil Call Up User 1" , application : "pweb" },
+	{ username : "", description : "Mil Call Up User 2" , application : "pweb" },
+	{ username : "", description : "POL Testing" , application : "pol" },
+	{ username : "", description : "POL Testing" , application : "pol" },
+	{ username : "", description : "POL Testing" , application : "pol" },
+	{ username : "", description : "POL Testing" , application : "pol" }
 ];
 
 function loadUserList(){
