@@ -1,0 +1,30 @@
+{
+	"name": "SP Invoice Military call Up",
+	"version": "5",
+	"manifest_version": 2,
+	"description": "SP Invoice Military call Up",
+	"homepage_url": "http://noneForNow.com",
+	"browser_action" : {
+		"default_title": "SP Military Callup Invoice",
+		"default_icon" : "icon.png",
+		"default_popup" : "options.html"
+	},
+	"background": {
+		"scripts" : [ "background_script.js" ],
+		"persistent" : false
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": [ 
+				"event_page.js"
+			]
+		}
+	],
+	"permissions": [
+		"https://*/*",
+		"http://*/*",
+		"tabs",
+		"activeTab"
+	]
+}

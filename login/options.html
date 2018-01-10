@@ -1,0 +1,51 @@
+<html>
+	<title>Login Options</title>
+	<head>
+		<script type="text/javascript" src="lib/mustache.js" ></script>
+		<script type="text/javascript" src="lib/jquery.js" ></script>
+		<script type="text/javascript" src="options.js" ></script>
+	</head>
+	<body>
+		<form name="pickUser">
+			<table>
+				<tr>
+					<td>
+						Usernames:
+					</td>
+					<td>
+						<div id="formDiv"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Username:
+					</td>
+					<td>
+						<input type="text" name="username" id="username" value="" >
+						<input type="button" name="usernameButton" value="Update Username" id="usernameButton">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						SSN:
+					</td>
+					<td>
+						<input type="text" name="ssn" id="ssn" value="" >
+						<input type="button" name="ssnButton" value="Update SSN" id="ssnButton">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Cost Letter Id:
+					</td>
+					<td>
+						<input type="text" name="costLetterId" id="costLetterId" value="" >
+						<input type="radio" name="costLetterTypeInvoice" id="costLetterTypeInvoiceYes" value="yes" checked>Invoice   
+						<input type="radio" name="costLetterTypeInvoice" id="costLetterTypeInvoiceNo" value="no" >Payment   
+						<input type="button" name="costLetterIdButton" value="Update Cost Letter Id" id="costLetterIdButton">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
